@@ -5,6 +5,7 @@ import com.hendisantika.reactive.webfluxreactive.repository.ContactRepository;
 import com.hendisantika.reactive.webfluxreactive.utils.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
 
@@ -19,6 +20,8 @@ import java.util.Date;
  * Date: 2018-12-18
  * Time: 06:47
  */
+
+@Service
 public class ContactServiceImpl implements ContactService {
     private final ContactRepository contactRepository;
 

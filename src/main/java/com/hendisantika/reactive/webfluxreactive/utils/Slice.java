@@ -26,6 +26,7 @@ package com.hendisantika.reactive.webfluxreactive.utils;
  * limitations under the License.
  */
 
+import org.springframework.core.convert.converter.Converter;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
